@@ -119,5 +119,14 @@ python etl\app\search_weaviate_labse_hybridfix.py --url http://localhost:8080 --
 # (Container-to-container URL သုံးထားပြီး --url http://weaviate:8080)
 docker compose run --rm etl python etl/app/search_weaviate_labse_hybridfix.py --url http://weaviate:8080 --grpc-port 50051 --collection Window --mode hybrid --alpha 0.5 --query "mettā" --k 5
 
+🛠️ Scripts Cheat-Sheet
+./bootstrap.sh setup   # up → build → load
+./bootstrap.sh up      # start Weaviate
+./bootstrap.sh build   # build ETL image
+./bootstrap.sh load    # run pipeline (schema + CSV + vectors + sanity)
+./bootstrap.sh logs    # follow logs (weaviate + etl)
+./bootstrap.sh down    # stop & remove containers (+ volume)
+./bootstrap.sh ps      # show running containers in this project
+
 
 Happy searching! 🙏
