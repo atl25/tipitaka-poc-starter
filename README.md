@@ -5,7 +5,7 @@
 
 - tipitaka-poc-starter ကို နှိပ်ပါ။ Code--> Open with GitHub Desktop -->မိမိသိမ်းလိုသည့် loacl file path ကို ရွေးချယ်ပြီး ဖိုင်ကိုသိမ်းပါ။
 
-##2. Docker Desktop ကို ဖွင့်ပါ
+2. ##Docker Desktop ကို ဖွင့်ပါ
 
 ##3. Docker မှာ အသုံးပြုနိုင်အောင် ပြင်ဆင်ခြင်း။
 - ./bootstrap.sh setup ကို run ပါ။
