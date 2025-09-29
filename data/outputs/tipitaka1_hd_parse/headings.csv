@@ -1,0 +1,45 @@
+heading_id,level,order_idx,title,path,parent_id
+H000001,1,1,Majjhimanikāye,Majjhimanikāye,
+H000002,2,1,Mūlapaṇṇāsa-aṭṭhakathā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā,H000001
+H000003,3,1,(Paṭhamo bhāgo),Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > (Paṭhamo bhāgo),H000002
+H000004,4,1,Ganthārambhakathā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > (Paṭhamo bhāgo) > Ganthārambhakathā,H000003
+H000005,4,2,Nidānakathā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > (Paṭhamo bhāgo) > Nidānakathā,H000003
+H000006,3,2,1. Mūlapariyāyavaggo,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo,H000002
+H000007,4,3,1. Mūlapariyāyasuttavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā,H000006
+H000008,5,1,Suttanikkhepavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Suttanikkhepavaṇṇanā,H000007
+H000009,5,2,Pathavīvāravaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Pathavīvāravaṇṇanā,H000007
+H000010,5,3,Āpovārādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Āpovārādivaṇṇanā,H000007
+H000011,5,4,Bhūtavārādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Bhūtavārādivaṇṇanā,H000007
+H000012,5,5,Ākāsānañcāyatanavārādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Ākāsānañcāyatanavārādivaṇṇanā,H000007
+H000013,5,6,Diṭṭhasutavārādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Diṭṭhasutavārādivaṇṇanā,H000007
+H000014,5,7,Ekattavārādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Ekattavārādivaṇṇanā,H000007
+H000015,5,8,Sekkhavāradutiyanayavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Sekkhavāradutiyanayavaṇṇanā,H000007
+H000016,5,9,Khīṇāsavavāratatiyādinayavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Khīṇāsavavāratatiyādinayavaṇṇanā,H000007
+H000017,5,10,Tathāgatavārasattamanayavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Tathāgatavārasattamanayavaṇṇanā,H000007
+H000018,5,11,Tathāgatavāraaṭṭhamanayavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 1. Mūlapariyāyasuttavaṇṇanā > Tathāgatavāraaṭṭhamanayavaṇṇanā,H000007
+H000019,4,4,2. Sabbāsavasuttavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā,H000006
+H000020,5,12,Dassanāpahātabbaāsavavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā > Dassanāpahātabbaāsavavaṇṇanā,H000019
+H000021,5,13,Saṃvarāpahātabbaāsavavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā > Saṃvarāpahātabbaāsavavaṇṇanā,H000019
+H000022,5,14,Paṭisevanāpahātabbaāsavavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā > Paṭisevanāpahātabbaāsavavaṇṇanā,H000019
+H000023,5,15,Adhivāsanāpahātabbaāsavavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā > Adhivāsanāpahātabbaāsavavaṇṇanā,H000019
+H000024,5,16,Parivajjanāpahātabbaāsavavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā > Parivajjanāpahātabbaāsavavaṇṇanā,H000019
+H000025,5,17,Vinodanāpahātabbaāsavavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā > Vinodanāpahātabbaāsavavaṇṇanā,H000019
+H000026,5,18,Bhāvanāpahātabbaāsavavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 2. Sabbāsavasuttavaṇṇanā > Bhāvanāpahātabbaāsavavaṇṇanā,H000019
+H000027,4,5,3. Dhammadāyādasuttavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 3. Dhammadāyādasuttavaṇṇanā,H000006
+H000028,4,6,4. Bhayabheravasuttavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 4. Bhayabheravasuttavaṇṇanā,H000006
+H000029,4,7,Kāyakammantavārakathā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Kāyakammantavārakathā,H000006
+H000030,5,19,Vacīkammantavārādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Kāyakammantavārakathā > Vacīkammantavārādivaṇṇanā,H000029
+H000031,5,20,Bhayabheravasenāsanādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Kāyakammantavārakathā > Bhayabheravasenāsanādivaṇṇanā,H000029
+H000032,5,21,Asammohavihāravaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Kāyakammantavārakathā > Asammohavihāravaṇṇanā,H000029
+H000033,5,22,Pubbabhāgapaṭipadādivaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Kāyakammantavārakathā > Pubbabhāgapaṭipadādivaṇṇanā,H000029
+H000034,4,8,Pubbenivāsakathāvaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Pubbenivāsakathāvaṇṇanā,H000006
+H000035,4,9,Dibbacakkhuñāṇakathāvaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Dibbacakkhuñāṇakathāvaṇṇanā,H000006
+H000036,4,10,Āsavakkhayañāṇakathāvaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Āsavakkhayañāṇakathāvaṇṇanā,H000006
+H000037,5,23,Araññavāsakāraṇavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Āsavakkhayañāṇakathāvaṇṇanā > Araññavāsakāraṇavaṇṇanā,H000036
+H000038,5,24,Desanānumodanāvaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Āsavakkhayañāṇakathāvaṇṇanā > Desanānumodanāvaṇṇanā,H000036
+H000039,5,25,Pasannākāravaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Āsavakkhayañāṇakathāvaṇṇanā > Pasannākāravaṇṇanā,H000036
+H000040,4,11,Saraṇagamanakathāvaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Saraṇagamanakathāvaṇṇanā,H000006
+H000041,4,12,Upāsakavidhikathāvaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Upāsakavidhikathāvaṇṇanā,H000006
+H000042,4,13,5. Anaṅgaṇasuttavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 5. Anaṅgaṇasuttavaṇṇanā,H000006
+H000043,4,14,Sammutiparamatthadesanākathāvaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > Sammutiparamatthadesanākathāvaṇṇanā,H000006
+H000044,4,15,6. Ākaṅkheyyasuttavaṇṇanā,Majjhimanikāye > Mūlapaṇṇāsa-aṭṭhakathā > 1. Mūlapariyāyavaggo > 6. Ākaṅkheyyasuttavaṇṇanā,H000006

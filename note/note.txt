@@ -1,0 +1,67 @@
+#1
+clean_text_only.py (bom and white space ရှင်း)
+python clean_text_only.py -i mn5chunk.txt -o mn5chunk_cleaned.txt
+
+#2
+chunk-split.py (chunk 8k, subchunk200, sentence, window- chunk and subchunk 200 မှာ စာကြောင်းဖြတ်တာအဆင်မပြေ)
+python scripts/build_1to7_pipeline_v2.py ^
+  --input data_clean/pali_text.txt ^
+  --outdir outputs ^
+  --prefix MAIN ^
+  --id-width 3 ^
+  --chunk-size 8000 ^
+  --sub-size 200
+
+output CSV ၄ ခု (chunks.csv, subchunks_200.csv, sentences_from_200.csv, windows_2_3.csv) ထုတ်ပေးတယ်။
+
+#3
+md_headings_to_sentences_v2.py
+python scripts/step2_md_headings_to_sentences_v2.py ^
+  --input data_clean/MN5chunk-heading_converted_v3.md ^
+  --outdir outputs
+ထွက်လာမယ့် ဖိုင်များ
+
+outputs/headings.csv
+heading_id, level, order_idx, title, path, parent_id
+
+outputs/units_sentences_with_tokens.csv ✅
+unit_id, heading_id, level, order_idx, path, h1..h6, sentence_text, token_start, token_end
+
+#4
+join_headings_by_tokens.py
+
+
+
+#
+make_labse_embeddings.py
+# Window vectors
+python scripts\make_labse_embeddings.py ^
+  --input outputs\windows_with_headings.csv ^
+  --text-col text ^
+  --id-col window_id ^
+  --out-npy outputs\windows_labse.npy ^
+  --out-ids outputs\windows_ids.txt
+
+#
+insert_with_vectors.py/ insert_vectors_generic.py ဒီနှစ်ခု ပေါင်းပေးရမယ်
+python scripts\insert_with_vectors.py ^
+  --url http://localhost:8080 --grpc-port 50051 ^
+  --win-csv outputs\windows_with_headings.csv ^
+  --win-ids outputs\windows_ids.txt ^
+  --win-npy outputs\windows_labse.npy
+
+#
+insert_vectors_unified.py (vector insert)
+**Example inside bootstrap.sh or pipeline.py
+python insert_vectors_unified.py \
+  --url http://localhost:8080 \
+  --grpc-port 50051 \
+  --collection Chunk \
+  --csv outputs/chunks.csv \
+  --id-col chunk_id \
+  --ids outputs/chunks_ids.txt \
+  --npy outputs/chunks_labse.npy \
+  --upsert-mode replace
+
+#
+weaviate_multitier_setup_and_search_patched.py (setup+CSV insert)
